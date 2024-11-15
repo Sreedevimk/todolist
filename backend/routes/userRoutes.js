@@ -36,11 +36,7 @@ router.post('/todo',async(req,res)=>{
 })
 module.exports=router
 
-// (user.password == req.body.password){
-//     const payload={uname:req.body.username,pwd:req.body.password}
-//     const token=jwt.sign(payload,"secret")
-//     res.status(200).send({message:"Login succesful",usertoken:token})
-// }
+
 
 
 
